@@ -6,11 +6,11 @@ import App from './App';
 const DATA = [];
 
 ReactDOM.render(
-    <React.StrictMode>
-        <title>TodoMatic</title>
-        <App tasks={DATA}/>
-    </React.StrictMode>,
-    document.getElementById('root')
+  <React.StrictMode>
+    <title>TodoMatic</title>
+    <App tasks={DATA}/>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 
